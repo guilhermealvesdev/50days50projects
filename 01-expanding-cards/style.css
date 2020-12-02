@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    display:flex;
+    width:100vw;
+    height:100vh;
+    justify-content: center;
+    align-items:center;
+    font-family:'Montserrat', sans-serif;
+    overflow:hidden;
+}
+
+.container {
+    width:90vw;
+    height:90vh;
+}
+
+.container .cards {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    width:100%;
+    height:100%;
+}
+
+.container .card {
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    flex: 0.3 1 1%;
+    height:100%;
+    cursor:pointer;
+    transition: flex .3s ease-out, visibility .3s ease-out;
+    border-radius:20px;
+    display:flex;
+    align-items:flex-end;
+}
+
+.container .card p {
+    visibility:hidden;
+    margin-bottom:30px;
+    margin-left:30px;
+    color:#FFFFFF;
+    font-size:20px;
+}
+
+.container .card.active {
+    flex: 5;
+}
+
+.container .card.active p {
+    visibility:visible;
+}
+
+.container .card1 {background-image:url('https://images.unsplash.com/photo-1521651201144-634f700b36ef?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80')}
+.container .card2 {background-image:url('https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80')}
+.container .card3 {background-image:url('https://images.unsplash.com/photo-1493916665398-143bdeabe500?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80')}
+.container .card4 {background-image:url('https://images.unsplash.com/photo-1486578077620-8a022ddd481f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80')}
+.container .card5 {background-image:url('https://images.unsplash.com/reserve/wrev1ljvQ6KlfyljCQG0_lion.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80')}
+
+@media (min-width:1199px) {
+    .container {
+        width:90vw;
+    }
+    .container .card {
+        flex: .5;
+    }
+}
