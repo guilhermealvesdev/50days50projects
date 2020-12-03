@@ -1,0 +1,92 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat', sans-serif;
+}
+
+body {
+    display:grid;
+    place-items:center;
+    height:100vh;
+}
+
+.container {
+    width:100%;
+    max-width:600px;
+    min-height:200px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-flow:column;
+}
+
+.progress {
+    display:flex;
+    justify-content:space-between;
+    max-width:300px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    z-index:1;
+    overflow:hidden;
+}
+
+.progress .bar-box {
+    position:absolute;
+    width:100%;
+    top:50%;
+    transform: translateY(-50%);
+    height:3px;
+    background-color:#eeeeee;
+    z-index:-1;
+}
+
+.progress .bar-box .bar {
+    position:absolute;
+    content:"";
+    background-color:#007fff;
+    width:0%;
+    height:100%;
+    transition: width .5s ease-out;
+}
+
+.progress .step {
+    background-color:#FFFFFF;
+    border:2px solid #cccccc;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.progress .step.active {
+    border-color:#007fff;
+}
+
+.buttons {
+    display:flex;
+    justify-content:center;
+}
+
+.button {
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+    padding:5px 20px;
+    background-color:#007fff;
+    color:#FFFFFF;
+    margin:0 10px;
+}
+
+.button:disabled {
+    cursor:not-allowed;
+    background-color:#dddddd;
+}
+
+.button:focus {
+    outline:none;
+}
