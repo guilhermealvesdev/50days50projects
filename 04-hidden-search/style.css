@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    background-color:#755AEC;
+    height:100vh;
+}
+
+.container {
+    max-width:90%;
+    margin:0 auto;
+    height:100vh;
+    display:grid;
+    place-items:center;
+}
+
+.search {
+    display:flex;
+    align-items:center;
+}
+
+.search > * {
+    cursor:pointer;
+
+}
+
+.search .input-box {
+    width:0px;
+    transition: width 0.2s ease-out;
+}
+
+.search.ativo .input-box {
+    width:200px;
+}
+
+.search input {
+    width:100%;
+    border:none;
+    padding:2rem;
+}
+
+.search input:focus {
+    outline:none;
+}
+
+.search button {
+    border:none;
+    padding:2rem;
+}
