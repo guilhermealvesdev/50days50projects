@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  background-color: #b4468f;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-box {
+  background-color: #69104b;
+  width: 100%;
+  max-width: 47rem;
+  min-height: 56rem;
+  border-radius: 1rem;
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.login-box h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 3.6rem;
+  margin-bottom: 4rem;
+}
+
+.login-box__input {
+  position: relative;
+  z-index: 1;
+}
+
+.login-box__input .input {
+  font-size: 2rem;
+  padding: 1rem .5rem;
+  border: none;
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.login-box__input .input:valid, .login-box__input .input:focus, .login-box__input .input:focus-within {
+  outline: none;
+  border-bottom-color: #b4468f;
+}
+
+.login-box__input .input:valid + label span:nth-child(1), .login-box__input .input:focus + label span:nth-child(1), .login-box__input .input:focus-within + label span:nth-child(1) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.login-box__input .input:valid + label span:nth-child(2), .login-box__input .input:focus + label span:nth-child(2), .login-box__input .input:focus-within + label span:nth-child(2) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.login-box__input .input:valid + label span:nth-child(3), .login-box__input .input:focus + label span:nth-child(3), .login-box__input .input:focus-within + label span:nth-child(3) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.login-box__input .input:valid + label span:nth-child(4), .login-box__input .input:focus + label span:nth-child(4), .login-box__input .input:focus-within + label span:nth-child(4) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.login-box__input .input:valid + label span:nth-child(5), .login-box__input .input:focus + label span:nth-child(5), .login-box__input .input:focus-within + label span:nth-child(5) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.login-box__input .input:valid + label span:nth-child(6), .login-box__input .input:focus + label span:nth-child(6), .login-box__input .input:focus-within + label span:nth-child(6) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.login-box__input .input:valid + label span:nth-child(7), .login-box__input .input:focus + label span:nth-child(7), .login-box__input .input:focus-within + label span:nth-child(7) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.login-box__input .input:valid + label span:nth-child(8), .login-box__input .input:focus + label span:nth-child(8), .login-box__input .input:focus-within + label span:nth-child(8) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.login-box__input .input + label {
+  color: #FFFFFF;
+  font-size: 1.7rem;
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  z-index: -1;
+}
+
+.login-box__input .input + label span {
+  display: inline-block;
+  -webkit-transition: -webkit-transform .2s ease-out;
+  transition: -webkit-transform .2s ease-out;
+  transition: transform .2s ease-out;
+  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+}
+
+.login-box__input .input + label span:nth-child(1) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+
+.login-box__input .input + label span:nth-child(2) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+.login-box__input .input + label span:nth-child(3) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.login-box__input .input + label span:nth-child(4) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+.login-box__input .input + label span:nth-child(5) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.login-box__input .input + label span:nth-child(6) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.login-box__input .input + label span:nth-child(7) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.login-box__input .input + label span:nth-child(8) {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.login-box .button {
+  width: 100%;
+  font-size: 2rem;
+  border-radius: .5rem;
+  padding: 2rem 3rem;
+  background-color: #e77cc2;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.login-box .register .texto {
+  font-size: 2rem;
+  color: #FFFFFF;
+}
+
+.login-box .register .cadastre {
+  color: #e77cc2;
+  text-decoration: none;
+  position: relative;
+}
+
+.login-box .register .cadastre:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.login-box .register .cadastre::before {
+  content: "";
+  width: 100%;
+  height: .2rem;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: -.2rem;
+  left: 0;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+/*# sourceMappingURL=style.css.map */
