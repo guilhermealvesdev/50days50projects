@@ -1,4 +1,4 @@
-//Constantes
+﻿//Constantes
 const container = document.querySelector('.container');
 const elProgress = document.querySelector('.progress');
 
