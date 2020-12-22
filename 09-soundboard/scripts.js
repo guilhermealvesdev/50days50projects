@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll(".btn");
-const path = "/sounds/"
+const path = "./sounds/"
 
 let audioFile = new Audio();
 
