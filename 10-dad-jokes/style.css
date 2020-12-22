@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    background-color: #f08454;
+    display:grid;
+    place-items:center;
+    height:100vh;
+    font-family: 'Montserrat', sans-serif;
+    padding:1.2rem;
+}
+
+@media (min-width:767px) {
+    body {
+        padding:0;
+    }
+}
+
+.container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width:100rem;
+    height:100%;
+    width:100%;
+}
+
+.shadow {
+    box-shadow: 1px 5px 4px 2px rgba(0, 0, 0, 0.2)
+}
+
+.loading {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    display:grid;
+    place-items:center;
+    z-index:100;
+}
+
+.d-none {
+    display:none;
+}
+
+.joke-box {
+    border-radius:1rem;
+    height:50vh;
+    background-color:#FFFFFF;
+    width:100%;
+    display:flex;
+    padding:1.2rem;
+    flex-flow:column;
+    justify-content:center;
+    gap:5rem;
+    text-align:center;
+    align-items:center;
+}
+
+.joke-box .joke {
+    font-size:2.7rem;
+}
+
+.joke-btn {
+    cursor:pointer;
+    max-width:20rem;
+    padding:1.5rem 2rem;
+    border:none;
+    font-size:1.8rem;
+    background-color:#fc753b;
+    transition:filter 0.2s ease-out;
+    border-radius:.7rem;
+}
+
+.joke-btn:hover {
+    filter:brightness(1.3);
+}
+
+.joke-btn:focus {
+    outline:none;
+}
