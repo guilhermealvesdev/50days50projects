@@ -47,6 +47,27 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: column;
           flex-flow: column;
+  position: relative;
+}
+
+.login-box .caixa {
+  width: 100px;
+  height: 100px;
+  left: -50px;
+  top: -50px;
+  border-radius: 10px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.login-box .caixa2 {
+  left: auto;
+  top: auto;
+  bottom: -50px;
+  right: -50px;
 }
 
 .login-box h1 {
@@ -132,6 +153,650 @@ body {
           transform: translateY(-3rem);
   -webkit-transition-delay: 0.4s;
           transition-delay: 0.4s;
+}
+
+.login-box__input .input:valid + label span:nth-child(9), .login-box__input .input:focus + label span:nth-child(9), .login-box__input .input:focus-within + label span:nth-child(9) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.login-box__input .input:valid + label span:nth-child(10), .login-box__input .input:focus + label span:nth-child(10), .login-box__input .input:focus-within + label span:nth-child(10) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.login-box__input .input:valid + label span:nth-child(11), .login-box__input .input:focus + label span:nth-child(11), .login-box__input .input:focus-within + label span:nth-child(11) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.55s;
+          transition-delay: 0.55s;
+}
+
+.login-box__input .input:valid + label span:nth-child(12), .login-box__input .input:focus + label span:nth-child(12), .login-box__input .input:focus-within + label span:nth-child(12) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.6s;
+          transition-delay: 0.6s;
+}
+
+.login-box__input .input:valid + label span:nth-child(13), .login-box__input .input:focus + label span:nth-child(13), .login-box__input .input:focus-within + label span:nth-child(13) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.65s;
+          transition-delay: 0.65s;
+}
+
+.login-box__input .input:valid + label span:nth-child(14), .login-box__input .input:focus + label span:nth-child(14), .login-box__input .input:focus-within + label span:nth-child(14) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
+}
+
+.login-box__input .input:valid + label span:nth-child(15), .login-box__input .input:focus + label span:nth-child(15), .login-box__input .input:focus-within + label span:nth-child(15) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.75s;
+          transition-delay: 0.75s;
+}
+
+.login-box__input .input:valid + label span:nth-child(16), .login-box__input .input:focus + label span:nth-child(16), .login-box__input .input:focus-within + label span:nth-child(16) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.8s;
+          transition-delay: 0.8s;
+}
+
+.login-box__input .input:valid + label span:nth-child(17), .login-box__input .input:focus + label span:nth-child(17), .login-box__input .input:focus-within + label span:nth-child(17) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.85s;
+          transition-delay: 0.85s;
+}
+
+.login-box__input .input:valid + label span:nth-child(18), .login-box__input .input:focus + label span:nth-child(18), .login-box__input .input:focus-within + label span:nth-child(18) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.9s;
+          transition-delay: 0.9s;
+}
+
+.login-box__input .input:valid + label span:nth-child(19), .login-box__input .input:focus + label span:nth-child(19), .login-box__input .input:focus-within + label span:nth-child(19) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 0.95s;
+          transition-delay: 0.95s;
+}
+
+.login-box__input .input:valid + label span:nth-child(20), .login-box__input .input:focus + label span:nth-child(20), .login-box__input .input:focus-within + label span:nth-child(20) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.login-box__input .input:valid + label span:nth-child(21), .login-box__input .input:focus + label span:nth-child(21), .login-box__input .input:focus-within + label span:nth-child(21) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.05s;
+          transition-delay: 1.05s;
+}
+
+.login-box__input .input:valid + label span:nth-child(22), .login-box__input .input:focus + label span:nth-child(22), .login-box__input .input:focus-within + label span:nth-child(22) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.1s;
+          transition-delay: 1.1s;
+}
+
+.login-box__input .input:valid + label span:nth-child(23), .login-box__input .input:focus + label span:nth-child(23), .login-box__input .input:focus-within + label span:nth-child(23) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.15s;
+          transition-delay: 1.15s;
+}
+
+.login-box__input .input:valid + label span:nth-child(24), .login-box__input .input:focus + label span:nth-child(24), .login-box__input .input:focus-within + label span:nth-child(24) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.login-box__input .input:valid + label span:nth-child(25), .login-box__input .input:focus + label span:nth-child(25), .login-box__input .input:focus-within + label span:nth-child(25) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.25s;
+          transition-delay: 1.25s;
+}
+
+.login-box__input .input:valid + label span:nth-child(26), .login-box__input .input:focus + label span:nth-child(26), .login-box__input .input:focus-within + label span:nth-child(26) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.3s;
+          transition-delay: 1.3s;
+}
+
+.login-box__input .input:valid + label span:nth-child(27), .login-box__input .input:focus + label span:nth-child(27), .login-box__input .input:focus-within + label span:nth-child(27) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.35s;
+          transition-delay: 1.35s;
+}
+
+.login-box__input .input:valid + label span:nth-child(28), .login-box__input .input:focus + label span:nth-child(28), .login-box__input .input:focus-within + label span:nth-child(28) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.4s;
+          transition-delay: 1.4s;
+}
+
+.login-box__input .input:valid + label span:nth-child(29), .login-box__input .input:focus + label span:nth-child(29), .login-box__input .input:focus-within + label span:nth-child(29) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.45s;
+          transition-delay: 1.45s;
+}
+
+.login-box__input .input:valid + label span:nth-child(30), .login-box__input .input:focus + label span:nth-child(30), .login-box__input .input:focus-within + label span:nth-child(30) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.login-box__input .input:valid + label span:nth-child(31), .login-box__input .input:focus + label span:nth-child(31), .login-box__input .input:focus-within + label span:nth-child(31) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.55s;
+          transition-delay: 1.55s;
+}
+
+.login-box__input .input:valid + label span:nth-child(32), .login-box__input .input:focus + label span:nth-child(32), .login-box__input .input:focus-within + label span:nth-child(32) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.login-box__input .input:valid + label span:nth-child(33), .login-box__input .input:focus + label span:nth-child(33), .login-box__input .input:focus-within + label span:nth-child(33) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.65s;
+          transition-delay: 1.65s;
+}
+
+.login-box__input .input:valid + label span:nth-child(34), .login-box__input .input:focus + label span:nth-child(34), .login-box__input .input:focus-within + label span:nth-child(34) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.7s;
+          transition-delay: 1.7s;
+}
+
+.login-box__input .input:valid + label span:nth-child(35), .login-box__input .input:focus + label span:nth-child(35), .login-box__input .input:focus-within + label span:nth-child(35) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.75s;
+          transition-delay: 1.75s;
+}
+
+.login-box__input .input:valid + label span:nth-child(36), .login-box__input .input:focus + label span:nth-child(36), .login-box__input .input:focus-within + label span:nth-child(36) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.8s;
+          transition-delay: 1.8s;
+}
+
+.login-box__input .input:valid + label span:nth-child(37), .login-box__input .input:focus + label span:nth-child(37), .login-box__input .input:focus-within + label span:nth-child(37) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.85s;
+          transition-delay: 1.85s;
+}
+
+.login-box__input .input:valid + label span:nth-child(38), .login-box__input .input:focus + label span:nth-child(38), .login-box__input .input:focus-within + label span:nth-child(38) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.9s;
+          transition-delay: 1.9s;
+}
+
+.login-box__input .input:valid + label span:nth-child(39), .login-box__input .input:focus + label span:nth-child(39), .login-box__input .input:focus-within + label span:nth-child(39) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 1.95s;
+          transition-delay: 1.95s;
+}
+
+.login-box__input .input:valid + label span:nth-child(40), .login-box__input .input:focus + label span:nth-child(40), .login-box__input .input:focus-within + label span:nth-child(40) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.login-box__input .input:valid + label span:nth-child(41), .login-box__input .input:focus + label span:nth-child(41), .login-box__input .input:focus-within + label span:nth-child(41) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.05s;
+          transition-delay: 2.05s;
+}
+
+.login-box__input .input:valid + label span:nth-child(42), .login-box__input .input:focus + label span:nth-child(42), .login-box__input .input:focus-within + label span:nth-child(42) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.1s;
+          transition-delay: 2.1s;
+}
+
+.login-box__input .input:valid + label span:nth-child(43), .login-box__input .input:focus + label span:nth-child(43), .login-box__input .input:focus-within + label span:nth-child(43) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.15s;
+          transition-delay: 2.15s;
+}
+
+.login-box__input .input:valid + label span:nth-child(44), .login-box__input .input:focus + label span:nth-child(44), .login-box__input .input:focus-within + label span:nth-child(44) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.2s;
+          transition-delay: 2.2s;
+}
+
+.login-box__input .input:valid + label span:nth-child(45), .login-box__input .input:focus + label span:nth-child(45), .login-box__input .input:focus-within + label span:nth-child(45) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.25s;
+          transition-delay: 2.25s;
+}
+
+.login-box__input .input:valid + label span:nth-child(46), .login-box__input .input:focus + label span:nth-child(46), .login-box__input .input:focus-within + label span:nth-child(46) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.3s;
+          transition-delay: 2.3s;
+}
+
+.login-box__input .input:valid + label span:nth-child(47), .login-box__input .input:focus + label span:nth-child(47), .login-box__input .input:focus-within + label span:nth-child(47) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.35s;
+          transition-delay: 2.35s;
+}
+
+.login-box__input .input:valid + label span:nth-child(48), .login-box__input .input:focus + label span:nth-child(48), .login-box__input .input:focus-within + label span:nth-child(48) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.4s;
+          transition-delay: 2.4s;
+}
+
+.login-box__input .input:valid + label span:nth-child(49), .login-box__input .input:focus + label span:nth-child(49), .login-box__input .input:focus-within + label span:nth-child(49) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.45s;
+          transition-delay: 2.45s;
+}
+
+.login-box__input .input:valid + label span:nth-child(50), .login-box__input .input:focus + label span:nth-child(50), .login-box__input .input:focus-within + label span:nth-child(50) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s;
+}
+
+.login-box__input .input:valid + label span:nth-child(51), .login-box__input .input:focus + label span:nth-child(51), .login-box__input .input:focus-within + label span:nth-child(51) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.55s;
+          transition-delay: 2.55s;
+}
+
+.login-box__input .input:valid + label span:nth-child(52), .login-box__input .input:focus + label span:nth-child(52), .login-box__input .input:focus-within + label span:nth-child(52) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.6s;
+          transition-delay: 2.6s;
+}
+
+.login-box__input .input:valid + label span:nth-child(53), .login-box__input .input:focus + label span:nth-child(53), .login-box__input .input:focus-within + label span:nth-child(53) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.65s;
+          transition-delay: 2.65s;
+}
+
+.login-box__input .input:valid + label span:nth-child(54), .login-box__input .input:focus + label span:nth-child(54), .login-box__input .input:focus-within + label span:nth-child(54) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.7s;
+          transition-delay: 2.7s;
+}
+
+.login-box__input .input:valid + label span:nth-child(55), .login-box__input .input:focus + label span:nth-child(55), .login-box__input .input:focus-within + label span:nth-child(55) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.75s;
+          transition-delay: 2.75s;
+}
+
+.login-box__input .input:valid + label span:nth-child(56), .login-box__input .input:focus + label span:nth-child(56), .login-box__input .input:focus-within + label span:nth-child(56) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.8s;
+          transition-delay: 2.8s;
+}
+
+.login-box__input .input:valid + label span:nth-child(57), .login-box__input .input:focus + label span:nth-child(57), .login-box__input .input:focus-within + label span:nth-child(57) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.85s;
+          transition-delay: 2.85s;
+}
+
+.login-box__input .input:valid + label span:nth-child(58), .login-box__input .input:focus + label span:nth-child(58), .login-box__input .input:focus-within + label span:nth-child(58) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.9s;
+          transition-delay: 2.9s;
+}
+
+.login-box__input .input:valid + label span:nth-child(59), .login-box__input .input:focus + label span:nth-child(59), .login-box__input .input:focus-within + label span:nth-child(59) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 2.95s;
+          transition-delay: 2.95s;
+}
+
+.login-box__input .input:valid + label span:nth-child(60), .login-box__input .input:focus + label span:nth-child(60), .login-box__input .input:focus-within + label span:nth-child(60) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
+}
+
+.login-box__input .input:valid + label span:nth-child(61), .login-box__input .input:focus + label span:nth-child(61), .login-box__input .input:focus-within + label span:nth-child(61) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.05s;
+          transition-delay: 3.05s;
+}
+
+.login-box__input .input:valid + label span:nth-child(62), .login-box__input .input:focus + label span:nth-child(62), .login-box__input .input:focus-within + label span:nth-child(62) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.1s;
+          transition-delay: 3.1s;
+}
+
+.login-box__input .input:valid + label span:nth-child(63), .login-box__input .input:focus + label span:nth-child(63), .login-box__input .input:focus-within + label span:nth-child(63) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.15s;
+          transition-delay: 3.15s;
+}
+
+.login-box__input .input:valid + label span:nth-child(64), .login-box__input .input:focus + label span:nth-child(64), .login-box__input .input:focus-within + label span:nth-child(64) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.2s;
+          transition-delay: 3.2s;
+}
+
+.login-box__input .input:valid + label span:nth-child(65), .login-box__input .input:focus + label span:nth-child(65), .login-box__input .input:focus-within + label span:nth-child(65) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.25s;
+          transition-delay: 3.25s;
+}
+
+.login-box__input .input:valid + label span:nth-child(66), .login-box__input .input:focus + label span:nth-child(66), .login-box__input .input:focus-within + label span:nth-child(66) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.3s;
+          transition-delay: 3.3s;
+}
+
+.login-box__input .input:valid + label span:nth-child(67), .login-box__input .input:focus + label span:nth-child(67), .login-box__input .input:focus-within + label span:nth-child(67) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.35s;
+          transition-delay: 3.35s;
+}
+
+.login-box__input .input:valid + label span:nth-child(68), .login-box__input .input:focus + label span:nth-child(68), .login-box__input .input:focus-within + label span:nth-child(68) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.4s;
+          transition-delay: 3.4s;
+}
+
+.login-box__input .input:valid + label span:nth-child(69), .login-box__input .input:focus + label span:nth-child(69), .login-box__input .input:focus-within + label span:nth-child(69) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.45s;
+          transition-delay: 3.45s;
+}
+
+.login-box__input .input:valid + label span:nth-child(70), .login-box__input .input:focus + label span:nth-child(70), .login-box__input .input:focus-within + label span:nth-child(70) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.5s;
+          transition-delay: 3.5s;
+}
+
+.login-box__input .input:valid + label span:nth-child(71), .login-box__input .input:focus + label span:nth-child(71), .login-box__input .input:focus-within + label span:nth-child(71) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.55s;
+          transition-delay: 3.55s;
+}
+
+.login-box__input .input:valid + label span:nth-child(72), .login-box__input .input:focus + label span:nth-child(72), .login-box__input .input:focus-within + label span:nth-child(72) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.6s;
+          transition-delay: 3.6s;
+}
+
+.login-box__input .input:valid + label span:nth-child(73), .login-box__input .input:focus + label span:nth-child(73), .login-box__input .input:focus-within + label span:nth-child(73) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.65s;
+          transition-delay: 3.65s;
+}
+
+.login-box__input .input:valid + label span:nth-child(74), .login-box__input .input:focus + label span:nth-child(74), .login-box__input .input:focus-within + label span:nth-child(74) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.7s;
+          transition-delay: 3.7s;
+}
+
+.login-box__input .input:valid + label span:nth-child(75), .login-box__input .input:focus + label span:nth-child(75), .login-box__input .input:focus-within + label span:nth-child(75) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.75s;
+          transition-delay: 3.75s;
+}
+
+.login-box__input .input:valid + label span:nth-child(76), .login-box__input .input:focus + label span:nth-child(76), .login-box__input .input:focus-within + label span:nth-child(76) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.8s;
+          transition-delay: 3.8s;
+}
+
+.login-box__input .input:valid + label span:nth-child(77), .login-box__input .input:focus + label span:nth-child(77), .login-box__input .input:focus-within + label span:nth-child(77) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.85s;
+          transition-delay: 3.85s;
+}
+
+.login-box__input .input:valid + label span:nth-child(78), .login-box__input .input:focus + label span:nth-child(78), .login-box__input .input:focus-within + label span:nth-child(78) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.9s;
+          transition-delay: 3.9s;
+}
+
+.login-box__input .input:valid + label span:nth-child(79), .login-box__input .input:focus + label span:nth-child(79), .login-box__input .input:focus-within + label span:nth-child(79) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 3.95s;
+          transition-delay: 3.95s;
+}
+
+.login-box__input .input:valid + label span:nth-child(80), .login-box__input .input:focus + label span:nth-child(80), .login-box__input .input:focus-within + label span:nth-child(80) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4s;
+          transition-delay: 4s;
+}
+
+.login-box__input .input:valid + label span:nth-child(81), .login-box__input .input:focus + label span:nth-child(81), .login-box__input .input:focus-within + label span:nth-child(81) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.05s;
+          transition-delay: 4.05s;
+}
+
+.login-box__input .input:valid + label span:nth-child(82), .login-box__input .input:focus + label span:nth-child(82), .login-box__input .input:focus-within + label span:nth-child(82) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.1s;
+          transition-delay: 4.1s;
+}
+
+.login-box__input .input:valid + label span:nth-child(83), .login-box__input .input:focus + label span:nth-child(83), .login-box__input .input:focus-within + label span:nth-child(83) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.15s;
+          transition-delay: 4.15s;
+}
+
+.login-box__input .input:valid + label span:nth-child(84), .login-box__input .input:focus + label span:nth-child(84), .login-box__input .input:focus-within + label span:nth-child(84) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.2s;
+          transition-delay: 4.2s;
+}
+
+.login-box__input .input:valid + label span:nth-child(85), .login-box__input .input:focus + label span:nth-child(85), .login-box__input .input:focus-within + label span:nth-child(85) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.25s;
+          transition-delay: 4.25s;
+}
+
+.login-box__input .input:valid + label span:nth-child(86), .login-box__input .input:focus + label span:nth-child(86), .login-box__input .input:focus-within + label span:nth-child(86) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.3s;
+          transition-delay: 4.3s;
+}
+
+.login-box__input .input:valid + label span:nth-child(87), .login-box__input .input:focus + label span:nth-child(87), .login-box__input .input:focus-within + label span:nth-child(87) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.35s;
+          transition-delay: 4.35s;
+}
+
+.login-box__input .input:valid + label span:nth-child(88), .login-box__input .input:focus + label span:nth-child(88), .login-box__input .input:focus-within + label span:nth-child(88) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.4s;
+          transition-delay: 4.4s;
+}
+
+.login-box__input .input:valid + label span:nth-child(89), .login-box__input .input:focus + label span:nth-child(89), .login-box__input .input:focus-within + label span:nth-child(89) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.45s;
+          transition-delay: 4.45s;
+}
+
+.login-box__input .input:valid + label span:nth-child(90), .login-box__input .input:focus + label span:nth-child(90), .login-box__input .input:focus-within + label span:nth-child(90) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.5s;
+          transition-delay: 4.5s;
+}
+
+.login-box__input .input:valid + label span:nth-child(91), .login-box__input .input:focus + label span:nth-child(91), .login-box__input .input:focus-within + label span:nth-child(91) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.55s;
+          transition-delay: 4.55s;
+}
+
+.login-box__input .input:valid + label span:nth-child(92), .login-box__input .input:focus + label span:nth-child(92), .login-box__input .input:focus-within + label span:nth-child(92) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.6s;
+          transition-delay: 4.6s;
+}
+
+.login-box__input .input:valid + label span:nth-child(93), .login-box__input .input:focus + label span:nth-child(93), .login-box__input .input:focus-within + label span:nth-child(93) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.65s;
+          transition-delay: 4.65s;
+}
+
+.login-box__input .input:valid + label span:nth-child(94), .login-box__input .input:focus + label span:nth-child(94), .login-box__input .input:focus-within + label span:nth-child(94) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.7s;
+          transition-delay: 4.7s;
+}
+
+.login-box__input .input:valid + label span:nth-child(95), .login-box__input .input:focus + label span:nth-child(95), .login-box__input .input:focus-within + label span:nth-child(95) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.75s;
+          transition-delay: 4.75s;
+}
+
+.login-box__input .input:valid + label span:nth-child(96), .login-box__input .input:focus + label span:nth-child(96), .login-box__input .input:focus-within + label span:nth-child(96) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.8s;
+          transition-delay: 4.8s;
+}
+
+.login-box__input .input:valid + label span:nth-child(97), .login-box__input .input:focus + label span:nth-child(97), .login-box__input .input:focus-within + label span:nth-child(97) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.85s;
+          transition-delay: 4.85s;
+}
+
+.login-box__input .input:valid + label span:nth-child(98), .login-box__input .input:focus + label span:nth-child(98), .login-box__input .input:focus-within + label span:nth-child(98) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.9s;
+          transition-delay: 4.9s;
+}
+
+.login-box__input .input:valid + label span:nth-child(99), .login-box__input .input:focus + label span:nth-child(99), .login-box__input .input:focus-within + label span:nth-child(99) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 4.95s;
+          transition-delay: 4.95s;
+}
+
+.login-box__input .input:valid + label span:nth-child(100), .login-box__input .input:focus + label span:nth-child(100), .login-box__input .input:focus-within + label span:nth-child(100) {
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  -webkit-transition-delay: 5s;
+          transition-delay: 5s;
 }
 
 .login-box__input .input + label {
