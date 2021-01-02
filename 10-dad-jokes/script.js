@@ -1,4 +1,4 @@
-//Elementos
+﻿//Elementos
 let jokeElement = document.querySelector('.joke')
 const jokeBtn = document.querySelector('.joke-btn')
 const loading = document.querySelector('.loading');
